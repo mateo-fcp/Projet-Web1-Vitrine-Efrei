@@ -1,17 +1,71 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>Formation</title>
-  </head> 
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formations - Efrei</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
     <header>
+        <div class="logo-container">
+            <img src="../IMG/logo_efrei_blanc.png" alt="Logo Efrei">
+            <div class="titre-site">
+                <h1>Efrei</h1>
+                <p>EFREI - Grande École d’ingénieurs généralistes et d’experts du numérique</p>
+            </div>
+        </div>
         <nav>
-            <a href="./equipe.html">Accueil</a>
-            <a href="./formations.html">Green IT & sites Web</a>
-            <a href="./page_d'accueil.html">Quiz Green IT</a>
-            <a href="./apropos.html">À propos du créateur</a>
+            <ul>
+                <li><a href="page_accueil.html">Accueil</a></li>
+                <li><a href="formations.html" class="active">Formations</a></li>
+                <li><a href="classement.html">Classements</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+            </ul>
         </nav>
     </header>
-  </body>
+
+    <main>
+        <section>
+            <h2>Nos Formations Disponibles</h2>
+            <p>L'Efrei propose des cursus adaptés aux besoins du marché du numérique.</p>
+            
+            <div class="banniere-container">
+                <img src="../IMG/programme_ecole.png" alt="Programmes Efrei" class="image-banniere">
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Niveau</th>
+                        <th>Programme</th>
+                        <th>Durée</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cycle Préparatoire</td>
+                        <td>Prépa intégrée classique</td>
+                        <td>2 ans</td>
+                    </tr>
+                    <tr>
+                        <td>Cycle Ingénieur</td>
+                        <td>Majeure Cybersécurité (CYB)</td>
+                        <td>3 ans</td>
+                    </tr>
+                    <tr>
+                        <td>Cycle Ingénieur</td>
+                        <td>Majeure Software Engineering</td>
+                        <td>3 ans</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Projet Web XT1205. <a href="apropos.html" class="active">À propos</a></p>
+    </footer>
+    <script src="../JS/script.js"></script>
+</body>
 </html>
