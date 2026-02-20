@@ -232,3 +232,42 @@ footer a {
     margin-bottom: 2rem;  /* Espace en dessous (avant le tableau) */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Petite ombre pour le style */
 }
+
+.flex-wrapper {
+    display: flex; /* Aligne les éléments sur une ligne */
+    justify-content: center; /* Centre les carrés horizontalement */
+    gap: 10px; /* Espace réduit entre les carrés */
+    padding: 20px;
+}
+
+.box {
+    /* Taille fixe pour garantir que tout reste sur la page */
+    width: 350px; 
+    height: 150px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px; /* Texte plus petit pour tenir sur une ligne */
+    padding: 10px;
+}
+
+/* Couleurs simples pour chaque bloc */
+.web { background-image: url('../IMG/baniere_bachelor.jpg'); 
+      background-size: cover; 
+      background-position: center; }
+.cyber { background-image: url('../IMG/baniere_bachelor.jpg'); 
+      background-size: cover; 
+      background-position: center; }
+.data { background-image: url('../IMG/baniere_bachelor.jpg'); 
+      background-size: cover; 
+      background-position: center; }
+.cloud { background-image: url('../IMG/baniere_bachelor.jpg'); 
+      background-size: cover; 
+      background-position: center; }
+
+.blue-box {
+    background-color: #004b87;}
